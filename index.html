@@ -5,28 +5,28 @@
   </head>
   <style>
       @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
-      big {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 600;
-        font-style: normal;
-        font-size: 120px;
-        line-height: 1.15;
-        letter-spacing: .2em;
-        background: -webkit-linear-gradient(#000000, #343417);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -webkit-font-smoothing: antialiased;
-      }
-      .line {
+    big {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 120px;
+      line-height: 1.15;
+      letter-spacing: .2em;
+      background: -webkit-linear-gradient(#000000, #343417);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -webkit-font-smoothing: antialiased;
+    }
+    .line {
         background-color: #00000000;
         width: 100%
         height: 50px;
     }
-      p {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-      }
+    p {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
     .button {
       border: none
       color: white;
@@ -88,7 +88,7 @@
       color: white; 
       border: 2px solid linear-gradient(#000000, #343417);
     }
-    .button3over {
+    .button3:hover {
       font-family: 'Poppins', sans-serif;
       font-weight: 400;
       font-style: normal;
@@ -98,37 +98,38 @@
       border: 2px solid linear-gradient(#ffffff, #ffffbf);
     }
     .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #141414;
-  text-align: center;
-  box-shadow: 0px -3px 10px 5px rgba(0,0,0,.5);
-}
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #141414;
+      text-align: center;
+      box-shadow: 0px -3px 10px 5px rgba(0,0,0,.5);
+    }
     body {
       background: linear-gradient(#ffff80, #ffcc40);
       margin-top: 17.5px;
+    } 
+    .buttons{
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 20px;
     }
     .buttons:hover .button{
-      opacity: .5;
-      filter: blur(3px);
+      opacity: 0.5
+      filter: blur(10px);
     }
-    .button:hover{
-      opacity: 1;
+    .buttons .button:hover{
+      opacity: 1
       filter: blur(0px);
-    }   
-      .buttons{
-  margin-top: 20px;
-  }
-    </style>
-  <body>
+    }
+  </style>
     <center><big>callum11t</big>
       <div class="line"></div>
-      <div calss="buttons">
-    <button class="button button1">Clicker Game!</button>
-    <button class="button button2">this is to test some stff</button>
-    <button class="button button3">this is to test some stuff</button>
+      <div class="buttons">
+       <button class="button button1">Clicker Game!</button>
+       <button class="button button2">this is to test some stff</button>
+       <button class="button button3">this is to test some stuff</button>
       </div>
     <div class="footer">
     <p style="color: #656565;">© callum11t 2023 | This page was last updated on 2nd April 2023</p>
