@@ -5,36 +5,17 @@
   </head>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap');
-    big {
+    .big {
       font-family: 'Space Grotesk', sans-serif;
       font-weight: 600;
       font-style: normal;
       font-size: 120px;
       line-height: 1.15;
       letter-spacing: .2em;
-      background: linear-gradient(#ffff80, #ffbf40);
+      background: -webkit-linear-gradient(#ffff80, #ffbf40);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       -webkit-font-smoothing: antialiased;
-    }
-    big span:{
-      position: relative;
-    }
-    big span::after{
-      content: "";
-      position: absolute;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      background: #080808;
-      border-left: 2px solid linear-gradient(#ffff80, #ffbf40);
-      animation: typing 1.5s steps(10)
-    }
-    @keyframes typing{
-      100%{
-        left: 100%;
-        margin: 0 -35px 0 35px;
-      }
     }
     .line {
         background-color: #00000000;
@@ -87,7 +68,7 @@
       box-shadow: 0px -3px 10px 5px rgba(0,0,0,.5);
     }
     body {
-      background-color: #080808;
+      background-color: linear-gradient(#080808, #313131);
       margin-top: 17.5px;
     } 
     .buttons{
@@ -99,7 +80,7 @@
       color: black;
     }
   </style>
-  <center><span><big>callum11t.</big></span>
+  <center><big>callum11t.</big>
       <div class="line"></div>
       <div class="buttons">
        <button class="button button1" style="margin-right: 20px;">Projects</button>
