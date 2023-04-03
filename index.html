@@ -72,20 +72,18 @@
       margin-top: 17.5px;
     } 
     .buttons{
-      position: absolute;
       top: 50%;
       left: 50%;
-      margin: -50px 0 0 -50px;
     }
     .buttons .button:hover{
       filter: blur(0px);
       transform: scale(1.1);
       background: linear-gradient(#ffffff, #ccccb8);
       color: black;
-    .button1:hover ~ .buttons{
+    .button1:hover ~ .button2{
       filter: blur(5px);
     }
-    .button2:hover ~ .buttons{
+    .button2:hover ~ .button2{
       filter: blur(5px);
     }
   </style>
