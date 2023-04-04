@@ -13,10 +13,12 @@
     }
     @keyframes buttonsize {
     from {
-        transform: size(0);
+      width: 0px;
+      height: 0px;
     }
     to {
-        transform: size(1);
+      width: 600px;
+      height: 125px;
        }
     }
     .title {
@@ -56,7 +58,6 @@
       transition-duration: 0.4s;
       cursor: pointer;
       border-radius: 32px;
-      animation: buttonsize 0.75s
     }
     .button1 {
       font-family: 'Space Grotesk', sans-serif;
@@ -65,7 +66,7 @@
       height: 125px;
       font-style: normal;
       background: linear-gradient(#ffff80, #ffbf40);
-      color: black; 
+      color: black;
       animation: buttonsize 0.75s
     }
     .footer {
