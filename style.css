@@ -2,16 +2,22 @@
     @keyframes titleEffect {
     from {
         opacity: 0.5; 
-        font-size: 4vw;
+        font-size: 6vw;
     }
     to {
         opacity: 1; 
-        font-size: 5vw;
+        font-size: 7vw;
        }
     }
     .title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 600;
       text-align: center;
-      font-size: 5vw;
+      font-size: 7vw;
+      background: -webkit-linear-gradient(#ffff80, #ffbf40);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -webkit-font-smoothing: antialiased;
       animation: titleEffect 0.75s
     }
     .container {
