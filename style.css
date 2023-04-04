@@ -3,10 +3,12 @@
     from {
         opacity: 0.5; 
         font-size: 6vw;
+        letter-spacing: -.1em;
     }
     to {
         opacity: 1; 
         font-size: 7vw;
+        letter-spacing: .2em;
        }
     }
     .title {
@@ -14,6 +16,7 @@
       font-weight: 600;
       text-align: center;
       font-size: 7vw;
+      letter-spacing: .2em;
       background: -webkit-linear-gradient(#ffff80, #ffbf40);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
