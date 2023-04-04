@@ -1,28 +1,15 @@
     @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap');
-    .header {
+    big {
       font-family: 'Space Grotesk', sans-serif;
       font-weight: 600;
       font-style: normal;
       font-size: 120px;
       line-height: 1.15;
       letter-spacing: .2em;
-      border-right: 5px solid;
-      width: 100%;
-      white-space: nowrap;
-      overflow: hidden;
-      animation:
-          typing 2 steps(10)
-          cursor .4s step-end infinite alternate;
       background: -webkit-linear-gradient(#ffff80, #ffbf40);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       -webkit-font-smoothing: antialiased;
-    }
-    @keyframes cursor {
-        50% { border-color: transparent }
-    }
-    @keyframes typing {
-        from { width: 0 }
     }
     .container {
         display: inline-block;
