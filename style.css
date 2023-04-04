@@ -78,8 +78,6 @@
     }
     .buttons{
       margin-top: 125px;
-      top: -50%;
-      left: 50%;
       display: inline-block;
     }
     .buttons .button:hover{
