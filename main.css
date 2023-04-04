@@ -82,9 +82,9 @@
       display: inline-block;
       margin: 0;
       width: 100%;
-      top: 45%;
-      -ms-transform: translate(-45%);
-      transform: translate(-45%);
+      top: 40%;
+      -ms-transform: translate(-40%);
+      transform: translate(-40%);
     }
     .buttons .button:hover{
       transform: scale(1.1333);
