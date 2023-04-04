@@ -66,6 +66,7 @@
     }
     .buttons{
       margin-top: 125px;
+      display: inline-block;
     }
     .buttons .button:hover{
       transform: scale(1.1);
