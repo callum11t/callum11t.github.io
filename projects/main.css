@@ -1,0 +1,10 @@
+    .b2ka {
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      background: -webkit-linear-gradient(#ffff80, #ffbf40);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -webkit-font-smoothing: antialiased;
+      font-size: 3vh
+    }
