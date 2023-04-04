@@ -12,11 +12,11 @@
     @keyframes titleEffect {
     from {
         opacity: 0.5; 
-        font-size: 3.5vw;
+        font-size: 100px;
     }
     to {
         opacity: 1; 
-        font-size: 4vw
+        font-size: 120px;
        }
     }
     .container {
