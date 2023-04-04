@@ -7,10 +7,7 @@
       line-height: 1.15;
       letter-spacing: .2em;
       animation: titleEffect 0.75s
-      background: -webkit-linear-gradient(#ffff80, #ffbf40);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      -webkit-font-smoothing: antialiased;
+      color: #ffffff
     }
     @keyframes titleEffect {
     from {
