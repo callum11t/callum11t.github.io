@@ -81,7 +81,7 @@
       display: inline-block;
     }
     .buttons .button:hover{
-      transform: scale(1.2);
+      transform: scale(1.15);
       background: linear-gradient(#ffffff, #ccccb8);
       color: black;
     }
