@@ -1,13 +1,9 @@
     @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
     @keyframes titleEffect {
     from {
-        opacity: 0.5; 
-        font-size: 0vw;
-        letter-spacing: -.3em;
+        letter-spacing: -.2em;
     }
     to {
-        opacity: 1; 
-        font-size: 7.5vw;
         letter-spacing: .2em;
        }
     }
