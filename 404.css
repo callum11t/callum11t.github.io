@@ -42,7 +42,6 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       -webkit-font-smoothing: antialiased;
-      animation: titleEffect 0.75s
     }
     body{
       background: linear-gradient(#080808, #313131);
