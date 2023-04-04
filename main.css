@@ -80,11 +80,14 @@
     }
     .buttons{
       display: inline-block;
+    }
+    .center{
       margin: 0;
-      width: 100%;
+      position: absolute;
       top: 40%;
-      -ms-transform: translate(-40%);
-      transform: translate(-40%);
+      left: 50%;
+      -ms-transform: translate(-50%, -40%);
+      transform: translate(-50%, -40%);
     }
     .buttons .button:hover{
       transform: scale(1.1333);
