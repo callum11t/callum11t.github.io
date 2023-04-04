@@ -42,6 +42,7 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       -webkit-font-smoothing: antialiased;
+      font-size: 3vh
     }
     .blue {
       font-family: 'Space Grotesk', sans-serif;
@@ -51,6 +52,7 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       -webkit-font-smoothing: antialiased;
+      font-size: 3vh
     }
     body {
       background: linear-gradient(#080808, #313131);
@@ -68,5 +70,4 @@
     p {
       font-family: 'Space Grotesk', sans-serif;
       font-weight: 400;
-      font-size: 3vh
       font-style: normal;
