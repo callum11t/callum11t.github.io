@@ -2,12 +2,12 @@
     @keyframes titleEffect {
     from {
         opacity: 0.5; 
-        font-size: 6vw;
+        font-size: 0vw;
         letter-spacing: -.1em;
     }
     to {
         opacity: 1; 
-        font-size: 7vw;
+        font-size: 8vw;
         letter-spacing: .2em;
        }
     }
@@ -78,6 +78,7 @@
     }
     .buttons{
       margin-top: 125px;
+      position: absolute;
       display: inline-block;
     }
     .buttons .button:hover{
