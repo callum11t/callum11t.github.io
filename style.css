@@ -1,23 +1,18 @@
     @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap');
-    .title {
-      font-family: 'Space Grotesk', sans-serif;
-      font-weight: 600;
-      font-style: normal;
-      font-size: 120px;
-      line-height: 1.15;
-      letter-spacing: .2em;
-      animation: titleEffect 0.75s
-      color: #ffffff
-    }
     @keyframes titleEffect {
     from {
         opacity: 0.5; 
-        font-size: 100px;
+        font-size: 4vw;
     }
     to {
         opacity: 1; 
-        font-size: 120px;
+        font-size: 5vw;
        }
+    }
+    .title {
+      text-align: center;
+      font-size: 5vw;
+      animation: titleEffect 0.75s
     }
     .container {
         display: inline-block;
