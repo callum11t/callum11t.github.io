@@ -43,6 +43,15 @@
       -webkit-text-fill-color: transparent;
       -webkit-font-smoothing: antialiased;
     }
+    .blue {
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      background: -webkit-linear-gradient(#00aaff, #0000ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -webkit-font-smoothing: antialiased;
+    }
     body {
       background: linear-gradient(#080808, #313131);
       margin-top: 17.5px;
