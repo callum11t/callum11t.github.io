@@ -81,7 +81,7 @@
       animation: buttonsize 0.75s
     }
     .buttons .button:hover{
-      transform: scale(1.15);
+      transform: scale(1.1333);
       background: linear-gradient(#ffffff, #ccccb8);
       color: black;
     }
