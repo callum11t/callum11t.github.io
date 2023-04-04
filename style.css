@@ -1,7 +1,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
     @keyframes titleEffect {
     from {
-        letter-spacing: -.2em;
+        letter-spacing: -.4em;
     }
     to {
         letter-spacing: .2em;
@@ -9,7 +9,7 @@
     }
     @keyframes buttonsize {
     from {
-      width: 120px;
+      width: 150px;
       height: 120px;
     }
     to {
