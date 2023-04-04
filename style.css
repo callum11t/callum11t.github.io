@@ -13,8 +13,8 @@
     }
     @keyframes buttonsize {
     from {
-      width: 120px;
-      height: 25px;
+      width: 150px;
+      height: 120px;
     }
     to {
       width: 600px;
