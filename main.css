@@ -90,10 +90,9 @@
     .center {
       margin: 0;
       position: absolute;
-      top: 40%;
-      left: 50%;
-      -ms-transform: translate(-50%, -40%);
-      transform: translate(-50%, -40%);
+      top: 50%;
+      -ms-transform: translate(-50%);
+      transform: translate(-50%);
     }
     body{
       background: linear-gradient(#080808, #313131);
