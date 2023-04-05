@@ -72,9 +72,11 @@
     .corner {
       width: 100px;
       height: 75px;
-      background: red;
+      background: linear-gradient(#ffff80, #ffbf40);
       color: white;
       position: absolute;
+      text-align: center;
+      font-size: 25px;
       top: 0;
       left: 0;
       border-bottom-right-radius:15px;
