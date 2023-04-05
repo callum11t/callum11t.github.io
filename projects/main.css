@@ -70,8 +70,8 @@
       animation: buttonsize 0.75s
     }
     .corner {
-      width: 70px;
-      height: 60px;
+      width: 100px;
+      height: 85px;
       background: linear-gradient(#ffff80, #ffbf40);
       color: black;
       position: absolute;
