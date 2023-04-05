@@ -69,6 +69,18 @@
       color: black;
       animation: buttonsize 0.75s
     }
+    .corner {
+      width: 100px;
+      height: 85px;
+      background: linear-gradient(#ffff80, #ffbf40);
+      color: black;
+      font-size: 35px;
+      position: absolute;
+      text-align: center;
+      top: 0;
+      left: 0;
+      border-bottom-right-radius:15px;
+    }
     .footer {
       position: fixed;
       left: 0;
