@@ -71,9 +71,12 @@
     }
     .corner {
       width: 100px;
-      height: 100px;
+      height: 75px;
       background: red;
       color: white;
+      position: absolute;
+      top: 0;
+      left: 0;
       border-bottom-right-radius:15px;
     }
     .footer {
