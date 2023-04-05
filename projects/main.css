@@ -75,8 +75,7 @@
       background: linear-gradient(#ffff80, #ffbf40);
       color: black;
       position: absolute;
-      text-align: justify;
-      font-size: 25px;
+      text-align: center;
       top: 0;
       left: 0;
       border-bottom-right-radius:15px;
