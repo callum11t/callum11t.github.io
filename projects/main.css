@@ -107,6 +107,11 @@
       background: linear-gradient(#ffffff, #ccccb8);
       color: black;
     }
+    .corner:hover{
+      transform: scale(1.1333);
+      background: linear-gradient(#ffffff, #ccccb8);
+      color: black;
+    }
     .b2ka {
       font-family: 'Space Grotesk', sans-serif;
       font-weight: 400;
