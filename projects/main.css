@@ -117,6 +117,16 @@
       -webkit-font-smoothing: antialiased;
       font-size: 3vh
     }
+    .blue {
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      background: -webkit-linear-gradient(#00ccff, #00aaff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -webkit-font-smoothing: antialiased;
+      font-size: 3vh
+    }
     body{
       background: linear-gradient(#080808, #313131);
       margin-top: 17.5px;
