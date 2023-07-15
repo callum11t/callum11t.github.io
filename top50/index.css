@@ -24,6 +24,7 @@ body {
     margin: 0.2vw;
     text-align: left;
     background: #141414;
+    border-radius: 10px;
     border: 0.1vw solid #ffffff;
     transition: margin-top 500ms;
 }
