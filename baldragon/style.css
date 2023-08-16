@@ -8,5 +8,6 @@ body {
 nav {
   background: linear-gradient(#eee, #ccc);
   height: 150px;
+  padding: 7px;
   color: black;
 }
