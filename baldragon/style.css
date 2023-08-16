@@ -6,8 +6,10 @@ body {
 }
 
 nav {
-  background: linear-gradient(#eee, #ccc);
-  height: 150px;
+  background: linear-gradient(#ccc, #aaa);
+  height: 100px;
   padding: 7px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
   color: black;
 }
