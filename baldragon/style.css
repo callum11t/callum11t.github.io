@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
 
+body {
+  font-family: Raleway;
+  margin: 0px;
+}
+
 nav {
-  background: linear-graident(#333, #888);
+  background: linear-gradient(#eee, #ccc);
   height: 90px;
   color: black;
 }
