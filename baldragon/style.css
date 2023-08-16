@@ -9,6 +9,7 @@ nav {
   background: linear-gradient(#ccc, #aaa);
   height: 120px;
   padding: 7px;
+  display: flex;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
   color: black;
