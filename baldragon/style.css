@@ -5,7 +5,7 @@ body {
   margin: 0px;
 }
 
-nav {
+nav.main {
   background: linear-gradient(#ccc, #aaa);
   height: 120px;
   padding: 7px;
@@ -13,12 +13,13 @@ nav {
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
   color: black;
+  filter: drop-shadow(4px 2px 5px #0005);
 }
 
-h1.ckc {
+h1.bda {
   display: flex;
   align-items: center;
   margin-left: 20px;
-  filter: drop-shadow(4px 2px 5px #0008);
+  filter: drop-shadow(4px 2px 5px #0005);
   font-size: 35px;
 }
