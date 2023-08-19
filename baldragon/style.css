@@ -27,6 +27,14 @@ h1.bda {
 }
 
 h1.hdr {
-    font-size: 50px;
-    filter: drop-shadow(4px 2px 5px #0005);
+  font-size: 50px;
+  filter: drop-shadow(4px 2px 5px #0005);
+}
+
+.news {
+  width: 1000px;
+  height: 200px;
+  background: linear-gradient(#fff4, #fff6);
+  border-radius: 25px;
+  filter: drop-shadow(0px 0px 15px #0008);
 }
