@@ -19,7 +19,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 9vw;
-    margin: 1vw;
+    margin: .5vw;
 }
 
 p {
