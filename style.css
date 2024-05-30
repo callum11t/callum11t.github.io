@@ -19,13 +19,15 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 9vw;
+    margin: 1vw;
 }
 
 p {
-    font-size: 2vw
+    font-size: 2vw;
+    margin: .5vw;
 }
 
 .footer {
     font-size: 1.5vw;
-    color: #FFFFFF7B
+    color: #FFFFFF7B;
 }
