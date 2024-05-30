@@ -18,9 +18,14 @@ body {
     background: -webkit-linear-gradient(#45FFB2, #353580);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 5vw;
+    font-size: 9vw;
 }
 
 p {
-    font-size: 2.5vw
+    font-size: 2vw
+}
+
+.footer {
+    font-size: 1.5vw;
+    color: #FFFFFF7B
 }
