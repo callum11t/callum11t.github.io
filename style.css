@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 .maincon {
     width: 100%;
@@ -8,7 +8,7 @@
 
 body {
     background: #121417;
-    font-family: Space Grotesk;
+    font-family: Inter;
     color: white;
     align-content: center;
     text-align: center;
@@ -18,13 +18,16 @@ body {
     background: -webkit-linear-gradient(#45FFB2, #353580);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-weight: 900;
     font-size: 9vw;
     margin: .7vw;
+    filter: drop-shadow(0px 15px 10rem rgb(0 180 194 / 50%))
 }
 
 p {
     font-size: 2vw;
     margin: .7vw;
+    font-weight: 300;
 }
 
 .footer {
