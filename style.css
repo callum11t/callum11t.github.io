@@ -89,7 +89,7 @@ a:hover {
   'opsz' 48;
 }
 
-back {
+.back {
   position: absolute;
   top: 0;
   left: 0;
