@@ -47,6 +47,21 @@ p {
     font-weight: 300;
 }
 
+a {
+    font-size: 2vw;
+    margin: .7vw;
+    font-weight: 300;
+}
+
+a:hover {
+    letter-spacing: .1vw;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .footer {
     font-size: 1.5vw;
     color: #FFFFFF7B;
