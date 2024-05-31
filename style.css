@@ -53,7 +53,6 @@ a {
     font-weight: 300;
     transition: .5s cubic-bezier(0, 0, 0.2, 1);
     color: white;
-    text-decoration: none;
 }
 
 a:hover {
@@ -64,6 +63,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 }
 
 .footer {
