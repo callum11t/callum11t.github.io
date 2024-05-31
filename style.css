@@ -37,7 +37,7 @@ body {
     font-size: 9vw;
     margin: .7vw;
     filter: drop-shadow(0px 15px 10rem rgb(0 180 194 / 50%));
-    animation: glow 4s ease-in-out infinite;
+    animation: glow 6s ease-in-out infinite;
     letter-spacing: -.1vw;
 }
 
