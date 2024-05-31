@@ -51,6 +51,9 @@ a {
     font-size: 2vw;
     margin: .7vw;
     font-weight: 300;
+    transition: .5s cubic-bezier(0, 0, 0.2, 1);
+    color: white;
+    text-decoration: none;
 }
 
 a:hover {
