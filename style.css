@@ -2,15 +2,15 @@
 
 @-webkit-keyframes glow {
   0% {
-    filter: drop-shadow(0px 15px 8vw rgb(0 180 194 / 40%));
+    filter: drop-shadow(0px 15px 8vw rgb(0 180 194 / 45%));
     letter-spacing: -.1vw;
   }
   50% {
-    filter: drop-shadow(0px 15px 11vw rgb(0 180 194 / 55%));
+    filter: drop-shadow(0px 15px 11vw rgb(0 180 194 / 60%));
     letter-spacing: .1vw;
   }
   100% {
-    filter: drop-shadow(0px 15px 8vw rgb(0 180 194 / 40%));
+    filter: drop-shadow(0px 15px 8vw rgb(0 180 194 / 45%));
     letter-spacing: -.1vw;
   }
 }
@@ -22,7 +22,7 @@
 }
 
 body {
-  background: #121417;
+  background: black;
   font-family: Inter;
   color: white;
   align-content: center;
